@@ -41,5 +41,5 @@ Investigamos información sobre modelos de IA y técnicas de explicabilidad (Exp
 
 ## 🔮 Próximos pasos para RainForest
 
-* [Añade aquí una idea futura, por ejemplo: "Mejorar la precisión del modelo con más datos"]
-* [Añade otra idea, por ejemplo: "Desplegar el modelo en una API web"]
+* "Mejorar la precisión del modelo con más datos"
+* Siendo más ambiciosos... "Desplegar el modelo en una API web"
