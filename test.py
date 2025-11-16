@@ -117,7 +117,7 @@ f1_clase_1 = f1_score(y_test, y_pred_rf, average=None)[1]
 print(f"F1-Score (Clase 1) de RF: {f1_clase_1:.4f}")
 
 #------------------------------------------------------------------------
-# MODELO 3: SUPPORT VECTOR MACHINE (SVM)
+# MODELO 3: SUPPORT VECTOR CLASSIFIER (SVC)
 #------------------------------------------------------------------------
 print("\n--- Evaluando: Support Vector Machine (SVC) ---")
 print("Aviso: ¡Esto puede tardar varios minutos...!")
