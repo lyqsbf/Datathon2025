@@ -79,12 +79,12 @@ print("Aviso: ¡Esto también puede tardar un poco...!")
 
 # 1. Crear instancia del modelo
 model_gb = GradientBoostingClassifier(
-    n_estimators=1000,    # 1000 árboles
+    n_estimators=200,
     random_state=42,
     # Nota: 'class_weight' y 'n_jobs' no son soportados por este modelo.
     # El desbalanceo se maneja en el .fit() con 'sample_weight'.
     learning_rate=0.05,    # Tasa de aprendizaje (importante para tuning)
-    max_depth=15           # Profundidad de los árboles (importante para tuning)
+    max_depth=25           # Profundidad de los árboles (importante para tuning)
 ) 
 
 # 2. Calcular los pesos para manejar el desbalanceo
